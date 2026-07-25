@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   Exclude cache files and temporary ignition-related files, as well as
+   the local instance of Shared Preferences that stores the user's choices.
+   -->
+    <exclude domain="cache" path="." />
+    <exclude domain="temp" path="." />
+    <exclude domain="sharedpref" path="DeviceIdPreferences.xml" />
+</full-backup-content>
