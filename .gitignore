@@ -1,0 +1,56 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+
+# Android Studio generated files and folders
+.idea/
+.vscode/
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Miscellaneous files such as dex files and generated locks
+*.dex
+*.class
+*.jar
+*.aar
+*.ap_
+*.apk
+*.aab
+
+# Files for the ART/Dalvik VM
+*.odex
+*.oat
+*.dex
+
+# Layout files for quick preview
+*.qpr
+
+# burpsuit files
+*.burp
+*.json
+
+# Capture files
+*.cap
+.gradle
+.idea
+build
+*.iml
