@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample data extraction rules file; uncomment and customize as needed.
+   See https://developer.android.com/about/versions/12/behavior-changes-12#backup-restore
+   for details.
+   Note: on Android 12 and (soon) after, the system will ignore all rules except those
+   with DOMAIN_SHARED
+-->
+<data-extraction-rules>
+    <domain-config>
+        <domain name="shared_pref" />
+        <domain name="file" />
+        <domain name="cache" />
+        <domain name="database" />
+    </domain-config>
+</data-extraction-rules>
